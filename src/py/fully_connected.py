@@ -187,8 +187,8 @@ class Fully_Connected_Network():
 
 if __name__ == '__main__':
     #8X8 pixel images
-    Xdata = np.load("data/digit_images.npy")
-    ydata = np.load("data/digit_labels.npy")
+    Xdata = np.load("data/in/digit_images.npy")
+    ydata = np.load("data/in/digit_labels.npy")
 
     ylabels = oneHotEncode(ydata)
     y = ylabels.T
